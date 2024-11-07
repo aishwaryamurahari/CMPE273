@@ -1,0 +1,14 @@
+{
+    "broker": {
+      "host": "localhost",
+      "port": 1883,
+      "keep_alive": 60
+    },
+    "topics": {
+      "Oroville": "/reservoirs/oroville",
+      "Shasta": "/reservoirs/shasta",
+      "Sonoma": "/reservoirs/sonoma"
+    },
+    "qos": 1
+  }
+  

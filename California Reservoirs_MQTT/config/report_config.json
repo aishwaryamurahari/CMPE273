@@ -1,0 +1,18 @@
+{
+    "output_directory": "../data/daily_reports",
+    "chart_settings": {
+      "figsize": [10, 6],
+      "color_storage_level": "#1f77b4",  
+      "color_hist_avg": "#ff7f0e"      
+    },
+    "report_labels": {
+      "title_prefix": "Reservoir Storage Report",
+      "xlabel": "Date",
+      "ylabel": "Storage Level (TAF)"
+    },
+    "thresholds": {
+      "critical_storage_level": 40,     
+      "alert_storage_level": 60         
+    }
+  }
+  
